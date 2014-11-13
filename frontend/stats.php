@@ -1,8 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Stats</title>
+	</head>
+	<body>
+		<a href="/..">home</a>
+		<h1>Stats
 <?php
-if (isset($name)) {
-	echo 'name: '.$name;
-} else {
-	echo 'global stats';
-}
-echo "<h1>stats</h1>";
+		if (isset($name)) {
+			echo ' of '.$name;
+		}
 ?>
+		</h1>
+	</body>
+</html>
