@@ -13,5 +13,9 @@
 		}
 ?>
 		</h1>
+
+		<p>
+			your personal stats will appear here.
+		</p>
 	</body>
 </html>
